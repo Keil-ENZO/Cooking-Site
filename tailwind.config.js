@@ -7,10 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary': 'FF6347',
-        'secondary': 'F5DEB3',
-        'background': 'FFFFFF',
-        'text': '333333',
+        'primary': '#FF6347',
+        'secondary': '#F5DEB3',
+        'background': '#FFFFFF',
+        'text': '#333333',
       },
         fontFamily: {
             'title': ['Playfair Display', 'sans-serif'],
