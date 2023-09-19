@@ -30,7 +30,7 @@ const Input = () => {
 
     return (
         <div>
-            <form onSubmit={(e) => handleSubmit(e)}>
+            <form onSubmit={(e) => handleSubmit(e)} className={'flex items-center justify-center'}>
                 <input
                     className={"h-10 rounded-lg text-center placeholder-text font-text border border-text bg-secondary focus:border-primary outline-none"}
                     onChange={(e) => setSearch(e.target.value)}
